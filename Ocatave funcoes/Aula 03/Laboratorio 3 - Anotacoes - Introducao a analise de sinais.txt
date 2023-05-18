@@ -76,3 +76,40 @@ I(t) = du(t)/dt
 							|
        							|
 					---------------------------------->
+
+----------------------------------------------------------------//---------------------------------------------------------------
+
+#Funções importantes: No tempo discreto	 		^	Gráfico de uma função degrau
+							|
+-> Funcao degrau					|
+						        |
+u(t) = 1, se t >= 0					|
+       0, se t < 0					|
+					----------------|----------------->
+							|
+							|
+							|
+							|
+							|
+
+-> Função Impulso (Delta de Kronecker)
+
+ 
+I(k) = 1, k = 0
+       0, k diferente de 0
+							 ^	Gráfico de uma função impulso
+							 |
+							 |
+						         |
+							 |
+						      	 |
+							 |
+       							 |
+					--x--x-x-x-x-x-x---x-x-x-x-x-x-x-x->
+
+----------------------------------------------------------------//---------------------------------------------------------------
+
+# Funcoes do octave 
+
+plot - funcoes discretas
+stem - funcoes discretas
