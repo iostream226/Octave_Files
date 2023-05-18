@@ -1,3 +1,5 @@
+#Introdução aos sinais
+
 Sinal continuo x Sinal Discreto - Análise do tempo
 Sinal analógio x Sinal Digital  - Análise da amplitude
 
@@ -33,7 +35,7 @@ Intervalos matematicos: -> Continuo t £ Reais (Entende-se como função represe
 
 
 ----------------------------------------------------------------//---------------------------------------------------------------
-Operações com sinais
+#Operações com sinais
 
 
 Deslocamento temporal (t <--- t - T) : -> T>0 (atrasado);
@@ -44,4 +46,33 @@ Escalamento temporal (t <--- t/a) : -> 0 < a < 1 (compressão);
 
 
 Reversão temporal (t <--- -t)
-			
+
+----------------------------------------------------------------//---------------------------------------------------------------
+					
+#Funções importantes:					^	Gráfico de uma função degrau
+							|
+-> Funcao degrau					|
+						      1 X________________
+u(t) = 1, se t >= 0					|
+       0, se t < 0					|
+					________________X----------------->
+							|0
+							|
+							|
+							|
+							|
+
+-> Função Impulso (Delta de Dirac)
+
+ 
+I(t) = du(t)/dt
+
+							^	Gráfico de uma função impulso
+							|
+							|
+						      1 x
+							|
+						      	|
+							|
+       							|
+					---------------------------------->
