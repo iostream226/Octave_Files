@@ -1,0 +1,47 @@
+Sinal continuo x Sinal Discreto - Análise do tempo
+Sinal analógio x Sinal Digital  - Análise da amplitude
+
+Sinal continuo: Assume infinitos valores em quaisquer intervalos de tempo
+Sinal Discreto: Assume finitos valores em um determinado intervalo de tempo 
+
+Sinal Analógico: Assum infinitos valores de amplitude em quaisquer intervalos de amplitude
+Sinal Digital: Assume finitos valores de amplitude em um determinado intervalo de tempo
+
+					  ^ Amplitude (analise do analogico e do digital)
+					  |
+					  |
+					  |
+					  |
+					  |
+					  |
+					  |
+					  |
+			<----------------------------------> Tempo (Analise do continuo e do discreto)
+					  |
+					  |
+					  |
+					  |
+					  |
+					  |
+					  |
+
+Conversão Continuo para discreto: Amostragem
+Conversão analógico para digital: Quantização
+
+Intervalos matematicos: -> Continuo t £ Reais (Entende-se como função representa-se x(t) );
+			-> Discreto k £ Inteitos (Entende-se como sequência representa-se x[k] );
+
+
+----------------------------------------------------------------//---------------------------------------------------------------
+Operações com sinais
+
+
+Deslocamento temporal (t <--- t - T) : -> T>0 (atrasado);
+				       -> T<0 (adiantado).
+
+Escalamento temporal (t <--- t/a) : -> 0 < a < 1 (compressão);
+				    -> a > 1 (dilatação).
+
+
+Reversão temporal (t <--- -t)
+			
